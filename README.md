@@ -37,7 +37,7 @@ This crash course quickly runs through some key concepts of javascripts. JavaScr
 
 # Advanced JS
 
-- Prototypical Inheritancce
+- Prototypical Inheritance
 - Classes
 - Copying Objects
 - Currying

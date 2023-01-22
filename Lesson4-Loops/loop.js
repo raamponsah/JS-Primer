@@ -10,9 +10,9 @@ const brandsOfSneekers = ['Addidas', 'Reebok','Nike','NewBalance','Balanciagas',
 // }
 
 // Moodern type of for loop and you can this for objects
-// for(let brand of brandsOfSneekers){
-//     console.log(brand)
-// }
+for(let brand of brandsOfSneekers){
+    console.log(brand)
+}
 
 // let x = 0; //initial value
 // while(x<brandsOfSneekers.length){

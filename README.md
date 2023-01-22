@@ -6,13 +6,13 @@ This crash course quickly runs through some key concepts of javascripts. JavaScr
 
 ## Things we'll learn  
 
-- Syntax of JS
-- Variables (const, let, var)
-- Arrays
-- If/Else Statements
-- For Loops (for, while, do-while)
-- Objects
-- Functions _(The heart of JS)_
+✅ - Syntax of JS
+✅ - Variables (const, let, var)  
+✅ - Arrays
+✅ - If/Else Statements
+✅ - For Loops (for, while, do-while)
+✅ - Objects
+✅ - Functions _(The heart of JS)_
 - Built-ins(Math.random, Math.ceil, Math.floor, parseInt, typeof)
 - Browser Built-ins(setTimeout, setInterval, alert, confirm, prompt, console)
 - Modern Syntax (ES6)

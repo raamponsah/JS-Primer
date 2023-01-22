@@ -10,3 +10,5 @@ function breath(){
 ```
 
 The keyword function indicates to js interpreter that this is a code that is runnable.
+
+therefore to execute the function or call the function or evoke the function we 

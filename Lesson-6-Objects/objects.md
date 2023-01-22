@@ -55,4 +55,30 @@ Basically this is an object with properties and methods(openingMethod is a funct
 ```javascript
 console.log(book);
 ```
-See what happens in your browser console. 
+See what happens in your browser console.
+
+## Accessing properties
+
+Remember I said objects are like arrays, we can also access properties using the square brackers.
+so for our book, we can access the color of the book by doing something like this:
+
+```js
+book['colorOfBookCover'] //output: red
+```
+
+or we can also acces the same property with the dot syntax
+
+```js
+book.colorOfBookCover //output: red
+```
+Manipulating properties
+Remember we said these properties and methods declared are like declaring variables. We can also override them or reassign them to new values.
+
+so we can also manipulate the properties as thus:
+```js 
+book['colorOfBookCover'] = "yellow" 
+// noow if you access the property
+book['colorOfBookCover'] //output: yellow
+```
+
+In future we will look at prototypical inheritance and other advanced stuff.

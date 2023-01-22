@@ -31,6 +31,28 @@ So then how do we declare objects.We declare them just like variables.
 
 ```js
 let book  = {} // this is an empty object.
+
 ```
 > The above example is an empty object. In this case we are using what is called Object literal `{}`.
->  
+
+Inside the {} is where we declare our properties and methods with their respective values. Think of them as mini variable decalaration with their values. That is what an object is about. 
+```javascript
+let book = {
+    colorOfBookCover: 'red',
+    numberOfPages:123,
+    textSize:34,
+    cover:'Soft cover',
+    openingMethod:function(){
+        console.log('flip pages')
+    }
+}
+```
+
+So here we see properties being declare as name and values separated with a comma.
+
+Basically this is an object with properties and methods(openingMethod is a function).
+
+```javascript
+console.log(book);
+```
+See what happens in your browser console. 

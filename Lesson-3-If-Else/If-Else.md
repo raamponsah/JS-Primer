@@ -1,4 +1,5 @@
 # If and Else Statements
+
 This is more of a structure, in js. Here we we look at a couple of clauses and conditions just as we have in normal English grammar. 
 
 A computer makes decision based on logical clauses and conditions. 

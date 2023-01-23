@@ -1,4 +1,5 @@
 # Loops
+
 Think of a wheel running. That wheel runs until something brings it to a stop. This is a classic example of what a loop is.
 
 Loops are important, because there are systems that can run multiple times or we would want certain tasks to run multiple times. Loops enable us to do this. In prpgramming there are structures that facilitate in these processes. JavaScript have about three main types of loops, fundamentally speaking. For-loop, Do-while and while loop.
@@ -12,10 +13,11 @@ for (var i = 0; i < 10; i++) {
     // code runs here
 }
 ```
-> In the above loop, the first part is the for keyword. Indicating that `for` a certain number of times meeting a particular condition the code in the {} should run. 
 
-> #### Variable
-
+> In the above loop, the first part is the for keyword. Indicating that `for` a certain number of times meeting a particular condition the code in the {} should run.
+> #### Initial Value (Variable Declaration)
+>
+>
 > inside the brackets (), we declar a variable, this variable will be the initializer. Every loop must begin from somewhere. This variable is assigned a value and that value is the initial value of the loop. Where the loop begins.
 > ### Condition
 > This is followed by the condition. So long as this condition is true, the loop will run.

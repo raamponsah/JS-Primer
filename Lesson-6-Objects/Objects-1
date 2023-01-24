@@ -1,0 +1,21 @@
+let bottle = {
+    cover: 'plastic',
+    color: 'brown',
+    shape: 'cylindrical-cone',
+    label:'Malta Guinness',
+    manufacturer: {
+        name:'Guinness',
+        location:'Amasaman',
+        products:['drinks','biscuits']
+    },
+    drinking: function(){
+        console.log('Drink Malt!')
+    },
+    storing: function(){
+        console.log('Store Drink')
+    },
+    stand: function(){
+        console.log('Standing...')
+    
+    }
+}

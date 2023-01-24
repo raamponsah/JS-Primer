@@ -1,0 +1,19 @@
+const car = {
+    color:"blue",
+    wheels:4,
+    automatic:true,
+    type:'saloon',
+    engineCapacity:1.2,
+    mileage:72000,
+    
+    changeMileage:function(){
+        this.mileage +=2000
+    },
+
+    accelerate:function(){
+        this.changeMileage()
+        console.log(`I am accelerating and my mileage is ${this.mileage}`)
+    }
+
+    
+}

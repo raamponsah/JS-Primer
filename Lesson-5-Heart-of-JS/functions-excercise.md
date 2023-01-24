@@ -45,4 +45,4 @@ function checkMessageLength(message) {
 
 7. Write a function that accepts an array of numbers, and filters all the odd numbers and returns the list of odd numbers as one array element and the sum of the odd numbers as another element.
 
-8. write a function that accepts a string and returns the vowels within the string.
+8. Write a function that accepts a string and returns the vowels within the string.

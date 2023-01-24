@@ -1,0 +1,38 @@
+// Write an object person that has four properties
+// (caloriesTaken, complexion, hairColor, height)
+// add the methods eating,calculatingCalories and hairLossRate
+// The eating method must take a calorie argument
+// When the person eats, the caloriesTaken should be now the existing calorie
+// plus the calorie of the food.
+
+const person = {
+    caloriesTaken:0,
+    complexion:'black',
+    hairColor: this.complexion,
+    height:2.56,
+
+    eating:function(calorie){
+        
+        this.caloriesTaken += calorie
+        return {
+            hairRate: this.caloriesTaken / 2.33,
+            status: this.hairLossing(),
+            deathDealine: this.hairRate < 20? '3 days': 'more days'
+        }
+        
+    },
+
+    hairLossing: function(){
+        let status = ""
+        if(this.caloriesTaken<50){
+           status = 'Cancer has begun'
+        }else{
+            status = 'Restoration'
+        }
+
+        return status
+    }
+
+    
+    
+}

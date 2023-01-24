@@ -1,0 +1,53 @@
+//  Write  a function that accepts three numbers 
+// and returns the minimum and maximum values. 
+// _[Hint use only if and else statements]_
+
+function minMaxValues(a,b,c){
+    let max;
+    let min;
+
+    if(a > b && b>c) {
+        max =a;
+        min=c
+    }
+
+    if(a > b && c >b){
+        max =a
+        min=b
+    }
+
+    if(b>a && b>c){
+        max = b;
+        min=c
+    }
+
+    if(b > a && c>a){
+        max = b;
+        min=a
+    }
+
+    if(c > a && a > b){
+        max =c ;
+        min = b
+    }
+
+    
+    if(c > b && b > a){
+        max =c ;
+        min = a
+    }
+
+    return [min, max]
+        
+}
+
+// minMaxValues(22,13,40)
+
+
+function minMaxValues(a,b,c){
+    let minVal = Math.min(a,b,c)
+    let maxVal = Math.max(a,b,c)
+    return [minVal, maxVal]
+}
+
+minMaxValues(4,3,2)

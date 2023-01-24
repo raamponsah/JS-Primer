@@ -137,3 +137,11 @@
 
 
 
+
+
+function minMaxValues(a,b,c){
+    
+    let minValue = Math.min(a,b,c);
+
+    return [minVal, maxVal]
+}

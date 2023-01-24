@@ -1,0 +1,13 @@
+// Write a function that accepts a message and check whether  
+// it is more than 200. If it is more than 200 characters,  
+// the function should return "You have exceeded 200 characters, be smart"
+
+function checkMessageLength200(message){
+    let lengthOfMessage = message.length;
+    if(lengthOfMessage>200){
+        return "You have exceeded 200 characters, be smart";
+    }
+}
+
+
+checkMessageLength200("Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!Hello, i am your friend, the AI Bot!")

@@ -1,0 +1,12 @@
+function getMessageAndDisplay(message, fn){
+   return fn(message)
+}
+
+function displayMessage(msg){
+    return ` Message Received is: ${msg}`
+}
+
+
+getMessageAndDisplay('Help! am in Okinawa, and Yakegaya has kidnapped us',displayMessage)
+
+getMessageAndDisplay('Wolf! Over! We are coming there! Out!', displayMessage)

@@ -1,0 +1,11 @@
+function getUserInfo(){
+    return {name:"Kofi",age:90}
+}
+
+getUserInfo.employeeId =23433929229
+
+getUserInfo.getEmployeeStatus = function(){
+    return "You are currently employed!"
+}
+
+getUserInfo.getEmployeeStatus()

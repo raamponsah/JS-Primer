@@ -52,8 +52,8 @@ function checkMessageLength(message) {
 
 9.  Write a function that accepts a number and a function. When this function is called the function returns true or false depending on whether the number is an odd number or not.
 
-10.  Write a function that accepts a number and a function. When this function is called the function returns true or false depending on whether the number is an prime number or not.
+10.  Write a function that accepts a number and a callback function. When this function is called, the function returns true or false depending on whether the number is an prime number or not.
 
-11. Write a function that takes three arguments, an array, a boolean flag and function. if the this function is run and the boolean flag is true, the callback function displays the list of the array. If theboolean flag is false the callback displays 'There are no elements in the array'. 
+11. Write a function that takes three arguments; an array, a boolean flag and function. if the this function is run and the boolean flag is true, the callback function displays the list of the array. If the boolean flag is false the callback displays 'There are no elements in the array'.
 
 12. Write a function that accepts a user object and a callback. This object must contain username, password, loginStatus and age. The function should test whether the user is loggged in or not. If the user is not logged in, the callback should display, 'User is not logged in'. Otherwise `${user.username} is logged in`

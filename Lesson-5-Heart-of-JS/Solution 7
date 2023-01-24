@@ -1,0 +1,29 @@
+// 7. Write a function that accepts an array of numbers, 
+// and filters all the odd numbers and returns the list of odd numbers as one array element 
+// and the sum of the odd numbers as another element.
+
+// Declare a function that accepts an array
+//  Loop through the array and filter the odd ones
+// add the odd numbers to a new array
+//  find the sum of the odd numbers
+// return the odd numbers array and the sum
+
+function sumOfOddArrays(arr){
+    let oddArrays =[]
+    let sum = 0;
+    
+    for (let i = 0; i < arr.length; i++) {
+        if(arr[i] % 2 == 1){
+            oddArrays.push(arr[i])
+        }
+    }
+
+   for (let j = 0; j < oddArrays.length; j++) {
+       sum += oddArrays[j]
+   }
+
+    return [oddArrays,sum]
+}
+
+
+sumOfOddArrays([40,33,15,22,90,15])

@@ -35,7 +35,14 @@ function checkMessageLength(message) {
 
 3. Write a function that accepts two arrays and display them in the console.
 
-4. Write  a function that accepts three numbers and returns the minimum and maximum values. _[Hint use only if and else statements]_
-5. 
+4. Write  a function that accepts three numbers and returns the minimum and maximum values. _[Hint use only if and else statements]_ 
 
-6. Write a function that accepts an array of numbers and returns a new array of odd numbers only.
+5. Write a function that accepts an array of numbers and returns a new array of odd numbers only.
+
+6. Write a function that accepts a fullname and returns the firstname and lastname in an array.
+
+// 6!. Write a function that takes a string and returns it in all uppercase
+
+7. Write a function that accepts an array of numbers, and filters all the odd numbers and returns the list of odd numbers as one array element and the sum of the odd numbers as another element.
+
+8. write a function that accepts a string and returns the vowels within the string.

@@ -18,7 +18,7 @@ checkUserAge('Kofi','Amoah, 13)
 Write a function that accepts a message and 
 returns the length of the message.
 
-```js 
+```js
 // let items = ['pocket'];
 // items.length
 // String are array like

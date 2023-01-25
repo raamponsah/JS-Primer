@@ -14,14 +14,16 @@ This crash course quickly runs through some key concepts of javascripts. JavaScr
 - ✅ Functions _(The heart of JS)_
 - ✅ Objects
 - ✅ Built-ins(Math.random, Math.ceil, Math.floor, parseInt, typeof)
-- Browser Built-ins(setTimeout, setInterval, alert, confirm, prompt, console)
+  
+- ✅ Browser Built-ins(setTimeout, setInterval, alert, confirm, prompt, console)
+  
 - Modern Syntax (ES6)
   - Destructuring, Spread Operator, Arrow(Lambda) Functions, Anonymous Functions
 - Using Third Party JS Plugins
 
 # Intermediate(Main Workshop)
 
-- Array Methods (map, reduce, filter, forEach)
+
 - The DOM
 - Accessing DOM Elements
 - Manipulating DOM Elements
@@ -34,7 +36,7 @@ This crash course quickly runs through some key concepts of javascripts. JavaScr
   - Fetch API
     - Getting data from external source
 - LocalStorage
-
+- Array Methods (map, reduce, filter, forEach)
 # Advanced JS
 
 - Prototypical Inheritance

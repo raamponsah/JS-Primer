@@ -1,0 +1,5 @@
+function goOutAfter4Seconds(){
+    console.log("Going out...")
+}
+
+setTimeout(goOutAfter4Seconds,4000)

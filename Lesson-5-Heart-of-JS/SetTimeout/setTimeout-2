@@ -1,0 +1,15 @@
+let instructions = ['Go to work','Eat your lunch', 'Clean your room', 'Go for rehearsals','Wash my clothes','Bath the baby']
+
+function loopInstructions(){
+            for (let i = 0; i < instructions.length; i++) {
+                   setTimeout(function(){
+                               console.log(instructions[i])
+                   },`${i*2000}`)
+                        
+            } 
+}
+
+loopInstructions()
+
+
+

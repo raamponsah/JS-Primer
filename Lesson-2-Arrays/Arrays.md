@@ -1,5 +1,5 @@
 # Arrays
-Arrays are ordered collections of items. Think of the pocket example we used in the variable section, however in this case we have a lot of items in your pocket but they are ordered. That is an array. Your pocket holds a lot of varying items. For instance, a pocket cna hold a bunch of keys, a pack of gum, some coins, and some notes. These together makes up an array. 
+*Arrays are ordered collections of items.* Think of the pocket example we used in the variable section, however in this case we have a lot of items in your pocket but they are ordered. That is an array. Your pocket holds a lot of varying items. For instance, a pocket cna hold a bunch of keys, a pack of gum, some coins, and some notes. These together makes up an array. 
 
 The array syntax is:
 

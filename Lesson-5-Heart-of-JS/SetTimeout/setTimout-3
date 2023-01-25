@@ -1,0 +1,29 @@
+let instructions = [walk, jump, eat, read]
+
+let walk = function(){
+    console.log("Walking")
+    
+}
+
+let jump = function(){
+    console.log("Jumping")
+}
+
+let eat = function(){
+    console.log("Eating")
+}
+
+let read = function(){
+    console.log("Reading")
+}
+
+
+function ignition(){
+    for (let i = 0; i < instructions.length; i++) {
+        setTimeout(function(){
+            instructions[i]()
+        }, `${i*3000}`)
+    }
+}
+
+ignition()

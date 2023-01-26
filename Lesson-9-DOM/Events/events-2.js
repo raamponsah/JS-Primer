@@ -8,3 +8,4 @@
  * and its innerText
  * once the function is called
  */
+

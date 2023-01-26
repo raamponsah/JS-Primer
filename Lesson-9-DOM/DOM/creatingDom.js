@@ -1,11 +1,13 @@
 let body = document.getElementsByTagName('body')[0]
-// let h1 = document.createElement('h1');
+let moo = document.createElement('h1');
 // let p = document.createElement('p');
 // let div = document.createElement('div');
 // let ul = document.createElement('ul');
 // let li = document.createElement('li');
 
-// h1.innerText = "Am coming from JavaScript"
+moo = "Am coming from JavaScript" //1
+moo.innerText = "Am coming from JavaScript" //2
+
 // p.innerText ='I am a young paragraph in JavaScript'
 
 // li.innerText = "Johnson Goes to school"
@@ -53,4 +55,4 @@ for (let i = 0; i < foodItems.length;i++){
 
 
 
-body.appendChild(ul)
+// body.appendChild(ul)

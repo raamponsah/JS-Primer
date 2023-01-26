@@ -71,3 +71,28 @@
 // Attach event listeners to each
 // When clicked, the button to console log 'I am at position:' its index
 // all in js
+
+let body = document.getElementsByTagName('body')[0]
+// Version 1
+let button1 = document.createElement('button')
+let button2 = document.createElement('button')
+let button3 = document.createElement('button')
+let button4 = document.createElement('button')
+let button5 = document.createElement('button')
+
+const buttons =[button1, button2, button3, button4, button5]
+
+// version 2
+const numberOfButtons = 10
+
+// Change loop depending on version
+for(let i = 0; i < numberOfButtons; i++){
+    let button = document.createElement('button')
+    button.innerText = `Button ${i+1}`
+    button.addEventListener('click', function(){
+        console.log(`I am at position ${i}`)
+    })
+
+    body.appendChild(button)
+}
+

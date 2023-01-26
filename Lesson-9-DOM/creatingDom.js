@@ -35,10 +35,10 @@ for (let i = 0; i < foodItems.length;i++){
 
     setTimeout(function() {
     ul.removeChild(li)
-    },10000)
+    },800)
 
 
-   }, `${i*2000}`);
+   }, `${i*200}`);
 
 
 

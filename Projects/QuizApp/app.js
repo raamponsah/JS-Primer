@@ -12,14 +12,14 @@ const questionsAndAnswers = [
         question:'What is the longest river in the South Africa?',
         options:['Breeriver', 'Tugela River', 'Limpopo River', 'Orange River'],
         answer:'Orange River',
-        duration: 10000,
+        duration: 5000,
         mark:12,
     },
     {
         question:'Who was the greatest boxer in the 18th Century?',
         options:['Tom Molineaux', 'Joe Louis', 'James Figg', 'Mohammed Ali'],
         answer:'Joe Louis',
-        duration: 6000,
+        duration: 5000,
         mark:15
     },
 
@@ -27,7 +27,7 @@ const questionsAndAnswers = [
         question:'What is the most dangerous animal in the World?',
         options:['Lion', 'Grizzly Bear','Mosquito','Nile Crocodile'],
         answer:'Mosquito',
-        duration: 8000,
+        duration: 5000,
         mark:22
     },
 
@@ -54,7 +54,7 @@ for (let i = 0; i <questionsAndAnswers.length; i++) {
 }
 
 
-// Run timer and display timer
+// Run timer and display
 let id = setInterval(function(){
     totalDuration = totalDuration-1
     timerDisplayBoard.innerText = `Timer: ${totalDuration} seconds`
@@ -75,8 +75,16 @@ body.append(displayedScoreboard)
 body.append(timerDisplayBoard)
 
 
+
+
+
 //creating the set of questions and answers div
 const setOfQnADiv = document.createElement('div') 
+
+
+
+
+
 
 
 for (let i = 0; i < questionsAndAnswers.length; i++){
@@ -93,7 +101,7 @@ for (let i = 0; i < questionsAndAnswers.length; i++){
 
     qnaDiv.appendChild(h3)
 
-    // Animate Question Display: this indicates how long it takes to disappear
+    // Animate Question Display
     setTimeout(function(){
         qnaDiv.style.display = 'none';
     }, questionsAndAnswers[i].duration * (i+1));
@@ -111,8 +119,8 @@ for (let i = 0; i < questionsAndAnswers.length; i++){
         label.innerText = questionsAndAnswers[i].options[j]
         label.prepend(optionInput)
         
-        // Attaching a change event to each radio input element
         optionInput.addEventListener('change',function(e){
+            
             let cnodes = optionInput.parentElement.parentElement.children //array of nodes
             for (let s = 0; s < cnodes.length; s++){
                 if(cnodes[s].childElementCount > 0){
@@ -120,7 +128,7 @@ for (let i = 0; i < questionsAndAnswers.length; i++){
                 }
             }
 
-            // Checking user answer and returning result
+            // Checking user answer and returning
             let userAnswer = e.target.value
             if(questionsAndAnswers[i].answer == userAnswer){  
                 totalScore += questionsAndAnswers[i].mark
@@ -130,7 +138,7 @@ for (let i = 0; i < questionsAndAnswers.length; i++){
                 result.innerText = 'Wrong!'
              }
              h3.append(result)
-        
+             console.log(totalScore)
              displayedScoreboard.innerText = `Total Score: ${totalScore}`
         })      
         qnaDiv.appendChild(label)

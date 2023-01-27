@@ -1,0 +1,42 @@
+{
+    "questions":[
+        {
+            "question":"What is the independence year of the United States of America?",
+            "options":[1967,1800,1642,1776],
+            "answer": "1776",
+            "duration": 5000,
+            "mark":20
+        },
+        {
+            "question":"What is the longest river in the South Africa?",
+            "options":["Breeriver", "Tugela River", "Limpopo River", "Orange River"],
+            "answer":"Orange River",
+            "duration": 10000,
+            "mark":12
+        },
+        {
+            "question":"Who was the greatest boxer in the 18th Century?",
+            "options":["Tom Molineaux", "Joe Louis", "James Figg", "Mohammed Ali"],
+            "answer":"Joe Louis",
+            "duration": 6000,
+            "mark":15
+        },
+    
+        {
+            "question":"What is the most dangerous animal in the World?",
+            "options":["Lion", "Grizzly Bear","Mosquito","Nile Crocodile"],
+            "answer":"Mosquito",
+            "duration": 8000,
+            "mark":22
+        },
+    
+        {
+            "question":"Who was the most dangerous woman in the 19th Century?",
+            "options":["Mary Ann","Ella Knoweles","Mary Jones","Belle Starr"],
+            "answer":"Mary Ann",
+            "duration": 5000,
+            "mark":14
+    
+        }
+    ]
+}

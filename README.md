@@ -21,7 +21,7 @@ This crash course quickly runs through some key concepts of javascripts. JavaScr
   - Destructuring, Spread Operator, Arrow(Lambda) Functions, Anonymous Functions
 - Using Third Party JS Plugins
 
-# Intermediate(Main Workshop)
+# Intermediate
 
 
 - The DOM
